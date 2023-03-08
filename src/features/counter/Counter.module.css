@@ -1,53 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
 .row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.row:not(:last-child) {
-  margin-bottom: 16px;
-}
-
 .value {
-  font-size: 78px;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-top: 2px;
-  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  padding-inline: 16px;
 }
 
 .button {
-  appearance: none;
-  border: none;
-  background: none;
-  font-size: 32px;
-  padding-left: 12px;
-  padding-right: 12px;
-  outline: none;
-  border: 2px solid transparent;
-  color: rgb(112, 76, 182);
-  padding-bottom: 4px;
   cursor: pointer;
-  background-color: rgba(112, 76, 182, 0.1);
-  border-radius: 2px;
-  transition: all 0.15s;
+  margin-top: 11px;
 }
 
 .textbox {
-  font-size: 32px;
-  padding: 2px;
-  width: 64px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
   text-align: center;
+  border-radius: 11px;
+  margin-top: 11px;
   margin-right: 8px;
-}
-
-.button:hover,
-.button:focus {
-  border: 2px solid rgba(112, 76, 182, 0.4);
-}
-
-.button:active {
-  background-color: rgba(112, 76, 182, 0.2);
 }
 
 .asyncButton {
